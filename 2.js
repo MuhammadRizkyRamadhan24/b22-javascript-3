@@ -16,7 +16,6 @@ function cb(message, data){
             resolve(message, data)
         }else{
             reject(eror, data)
-            console.log(message,data);
         }
     })
 }
